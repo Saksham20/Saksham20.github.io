@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "templates/base.html" %}
 
-</body>
-</html>
+{% block title %}
+What am I
+{% endblock title%}
+
+{% block content %}
+<sec>
+    <h1>My drivers</h1>
+    <ol>Summary of my source code:</ol>
+        <ls>Information hungry</ls>
+        <ls>Appreciation craving</ls>
+    <ol>Addons:</ol>
+        <ls>DYI</ls>
+</sec>
+
+{% endblock content %}
